@@ -1,0 +1,179 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 32px;
+  width: 100%;
+  font-family: futura;
+  background-color: black;
+  background-image: url(https://browsecat.net/sites/default/files/champions-league-wallpapers-102893-663048-8916195.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+header {
+  text-align: left;
+  color: rgb(234, 255, 0);  
+  font-style: italic;
+  margin:30px;
+  font-weight: 100%;
+}
+h1 {
+
+}
+
+main {
+  width: 100%;
+  display: block;
+  border-bottom: 1px solid #ccc;
+  position: relative;
+  background-color: transparent;
+  color: white;
+}
+
+textarea {
+  background-color: transparent;
+  color: white;
+}
+
+footer {
+  background-color:black;
+  border-top: 1px solid #ccc;
+  text-align: center;
+  color: white;
+  font-size: 16px;
+  margin-left: auto;
+  margin-right: auto;
+  bottom:0;
+  position: absolute;
+  width:100%;
+}
+
+p {
+  font-size: 200%;
+  text-align: center;
+  border-bottom: 1px solid #fff;
+  height: 200px;
+  color: white;
+  background-color: transparent;
+}
+ul {
+  padding: 0;
+  border-top: 1px solid #000000;
+  display: table; /* 定義 */
+  table-layout: fixed;
+  width: 90%;
+  font-size: 80%;
+  margin: 0 3%;
+  text-align: center;
+  background-color: transparent;
+}
+li {
+  list-style-type: none;
+  border: 1px solid white;
+  background-color:  gray;
+  display: table-cell; /* 定義 */
+  cursor: pointer;
+  color: black;
+  width:90%;
+}
+
+#list {
+  background:rgba(black);
+}
+
+#save {
+  text-align: center;
+  font-family: futura;
+  width:100px;
+  font-size: 16px;
+  background-color: gray;
+  color:white;
+  display: block;
+  padding:5px 0 5px;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#save:hover {
+  background: rgb(234, 255, 0);
+  color: black;
+  cursor: pointer;
+}
+
+#clear {
+  text-align: center;
+  font-family: futura;
+  width:100px;
+  font-size: 16px;
+  background-color: gray;
+  color:white;
+  display: block;
+  padding:5px 0 5px;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#clear:hover {
+  background: rgb(234, 255, 0);
+  color: black;
+  cursor: pointer;
+}
+
+textarea {
+  margin: 10px 3%;
+  width: 90%;
+  height: 100px;
+  font-size: 80%;
+  background-color: rgba(black);
+  opacity: 0.5;
+}
+#key {
+  margin: 0 3%;
+  width: 91.2%;
+  font-size: 80%;
+  background-color: rgba;
+  color:navy;
+  opacity: 0.5;
+  font-family:;
+}
+
+#memo {
+  margin: 0 3%;
+  width: 90%;
+  background-color: rgba;
+  opacity: 0.5;
+  color:navy;
+  padding-left: 10px;
+  font-family: futura;
+}
+
+table {
+  margin: 20px 3%;
+  border: 1px solid white;
+  width: 96%;
+}
+th {
+  width: 30%;
+  font-size: 20px;
+  background-color: rgba(black);
+  border-bottom: 1px solid white;
+  color:  rgb(234, 255, 0);
+  font-weight: lighter;
+  text-align: center;
+}
+td {
+  text-align: left;
+  padding-left: 10px;
+  font-size: 20px;
+  background-color: rgba;
+  border-bottom: 1px solid white;
+  color:rgb(234, 255, 0);
+}
+input {
+  margin: 10px 3%;
+  width: 95%;
+  height: 40px;
+  font-size: 80%;
+}
